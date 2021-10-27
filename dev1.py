@@ -1,1 +1,1 @@
-print('Ana Beatriz Parra Ferreira')
+print('Ana Beatriz Parra')
