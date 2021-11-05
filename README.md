@@ -15,7 +15,7 @@ Repete-se cada passo
 
 Caso o jogador não tenha peça possível e também esgotado o monte, então, esse deve passar sua vez para o próximo jogador.
 
-## vitória:
+## Vitória:
 O jogador vitorioso é aquele que conseguir colocar todas suas peças na mesa, respeitando as regras dos valores das pontas, antes dos demais jogadores;
 Quanto algum jogador ganhar, o jogo deve parar e o vencedor deve ser anunciado.
 ## Empate:
