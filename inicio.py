@@ -1,4 +1,4 @@
-import funçoes as fç 
+import funcoes as fc
 import random
 
 # Início 
@@ -10,7 +10,7 @@ print(conteudo_completo)
 numero_jogadores = int(input('Quantas pessoas jogarão? (2-4)'))
 
 # chama função de saida e printa a mesa
-saida = fç.inicia_jogo(numero_jogadores,fç.cria_pecas())
+saida = fc.inicia_jogo(numero_jogadores,fc.cria_pecas())
 print('MESA:') 
 print(saida['mesa'])
 
