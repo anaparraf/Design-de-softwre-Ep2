@@ -1,4 +1,4 @@
-import funcoes as fc
+from funcoes import *  
 import random
 
 # Início 
@@ -10,11 +10,19 @@ print(conteudo_completo)
 numero_jogadores = int(input('Quantas pessoas jogarão? (2-4)'))
 
 # chama função de saida e printa a mesa
-saida = fc.inicia_jogo(numero_jogadores,fc.cria_pecas())
+saida = inicia_jogo(numero_jogadores,cria_pecas())
 print('MESA:') 
 print(saida['mesa'])
 
-# apresenta peças do primeiro jogador
-j1 = random.randint(1, 4)
-j = saida['jogadores']
-print('Jogador {} com {} peças'.format( j1 , len( j[j1-1])))
+
+#  cria ordem dos jogadores
+l = [0,1,2,3]
+ordem = random.shuffle(l)
+
+jogadordavez = ordem
+pecacada = saida['jogadores']
+
+print('Jogador {} com {} peças'.format(  jogadordavez , len( pecacada[jogadordavez])))
+
+
+
